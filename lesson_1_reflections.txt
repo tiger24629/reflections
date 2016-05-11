@@ -1,0 +1,26 @@
+Backup, backup and backup
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easier to find bugs and reuse code
+
+git diff //the files(id) to compare
+git log //q for quitting
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+files can be interrelated
+
+git clone
+
+git config --global color.ui auto //color changes
+
+How can you use the commands git log and git diff to view the history of files? compage changes between commits
+
+git checkout
+
+Now that you have your workspace set up, what do you want to try using Git for? for my iOS project
+
+git init
+
+git status
