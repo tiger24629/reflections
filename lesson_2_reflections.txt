@@ -3,3 +3,25 @@ What happens when you initialize a repository? Why do you need to do it? add fil
 How is the staging area different from the working directory and the repository? What value do you think it offers? control over what to track
 
 git commit
+
+git diff // difference on files in working area and the staging area
+
+git diff --staged // difference between the files in the staging area and the latest file in the repository
+
+git reset --hard //delete all changes 
+
+git checkout master
+
+How can you use the staging area to make sure you have one commit per logical change? I can add the files there make sence for a logical change and only commit them.
+
+git branch //show branches
+git branch <name> //creates new branch
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help? Experimental features, or to have a seperate developer branch and a working master.
+
+git log --graph --oneline <branchname> <branchname>
+
+git checkout -b <newBranchName> //creates and checkout new branch from your head
+
+
+How do the diagrams help you visualize the branch structure? 
