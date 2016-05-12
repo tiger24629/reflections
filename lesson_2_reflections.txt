@@ -25,3 +25,9 @@ git checkout -b <newBranchName> //creates and checkout new branch from your head
 
 
 How do the diagrams help you visualize the branch structure? 
+
+git merge <branch> <branch>
+
+git show <id> //diff on the id and its parent
+
+git branch -d <branch> //delete branch
